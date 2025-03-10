@@ -7,7 +7,7 @@ public class SetItem : MonoBehaviour
 {
     [SerializeField] GameObject setItemObj; // 設置するオブジェクト
     public UnityEvent SetEvent; // アイテム設置時に発生させるイベント
-    int F_set = 0;
+    public int F_set = 0;
 
     public void OnClickObj()
     {

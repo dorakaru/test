@@ -21,6 +21,12 @@ public class PickupObject : MonoBehaviour
 
         // クリックしたアイテムを非表示にする
         gameObject.SetActive(false);
+
+        SetItem setitem; //呼ぶスクリプトにあだなつける
+        GameObject obj = GameObject.Find("PedestalTop"); //PedestalTopっていうオブジェクトを探す
+        setitem = obj.GetComponent<SetItem>(); //付いているスクリプトを取得
+        setitem.F_set = 0;
+
     }
     
     //クリックしたら消える(取得)
