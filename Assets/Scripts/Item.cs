@@ -10,7 +10,7 @@ public class Item
     // ƒAƒCƒeƒ€‚Ìí—Ş
     public enum Type
     {
-        key,
+        Key,
         Cube,
         Circle,
         Cylinder,
